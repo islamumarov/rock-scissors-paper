@@ -1,0 +1,25 @@
+.signs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signs img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.signs img:hover {
+    transform: scale(1.1);
+}
+
+.signs img:active {
+    transform: scale(0.9);
+}
+
+.signs image selected {
+    transform: scale(1.1);
+}

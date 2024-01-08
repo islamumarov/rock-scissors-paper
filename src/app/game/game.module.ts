@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { GameRoutingModule } from './game-routing.module';
 import { GameComponent } from './game.component';
 
@@ -11,7 +11,8 @@ import { GameComponent } from './game.component';
   ],
   imports: [
     CommonModule,
-    GameRoutingModule
+    GameRoutingModule,
+    MatButtonToggleModule
   ]
 })
 export class GameModule { }
