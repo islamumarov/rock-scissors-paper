@@ -1,0 +1,18 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    marker: none;
+}
+
+.tab>a {
+    margin: 0 10px;
+    color: #fff;
+}
