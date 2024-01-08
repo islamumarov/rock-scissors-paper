@@ -1,0 +1,24 @@
+.img-fluid {
+    grid-area: img;
+    width: 10%;
+    height: auto;
+}
+
+.container {
+    grid-area: container;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rules-title {
+    flex: 1;
+    grid-area: rules;
+}
+
+.rules-text {
+    margin-left: 3%;
+}
