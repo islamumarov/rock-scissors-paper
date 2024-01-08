@@ -1,27 +1,46 @@
-# RockScissorsPaper
+# Rock Scissors Paper
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+Rock, Scissors, Paper is a simple and popular game played by two people. Each player simultaneously forms one of three shapes with an outstretched hand. The possible shapes are rock (a closed fist), paper (an open hand), and scissors (a fist with the index and middle fingers together forming a V). The game has three possible outcomes other than a tie: rock crushes scissors, scissors cuts paper, and paper covers rock.
 
-## Development server
+## Game rules
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="meta/Rock,%20Scissors,%20Paper.png" />
 
-## Code scaffolding
+## Game play
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+----
 
-## Build
+<br />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to run
 
-## Running unit tests
+### 1. Clone the repository
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone https://github.com/islamumarov/rock-scissors-paper.git
 
-## Running end-to-end tests
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 2. install dependencies
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 3. angular serve
+
+```bash
+ng serve
+```
+
+### 4. open browser
+
+```bash
+http://localhost:4200/
+```
+
+<br />
+
+## Contribute
+
+If you want to contribute to this project and make it better, your help is very welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
